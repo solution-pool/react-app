@@ -44,7 +44,7 @@ const App = () => {
   useEffect(() => {
     window.Echo = new Echo({
       broadcaster: "pusher",
-      key: "anyKey",
+      key: "852daddc57b247b50817",
       cluster: "ap2",
       forceTLS: false,
       wsHost: window.location.hostname,
